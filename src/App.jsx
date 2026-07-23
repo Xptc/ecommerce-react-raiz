@@ -13,7 +13,7 @@ import { collection, getDocs, addDoc } from "firebase/firestore";
 const App = () => {
   // --- NUEVOS ESTADOS PARA EL LOGIN ---
   const [sesionIniciada, setSesionIniciada] = useState(false);
-  const [datosUsuario, setDatosUsuario] = useState({ nombre: '', correo: '' });
+  const [datosUsuario, setDatosUsuario] = useState({ nombres: '', correo: '' });
 
   // --- ESTADOS DEL CATÁLOGO (Los que ya tenías) ---
   const [productos, setProductos] = useState([]); 
