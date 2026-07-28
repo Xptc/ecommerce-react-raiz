@@ -110,13 +110,13 @@ const manejarInicioSesion = async (nombre, correo) => {
           <h2 className="text-xl font-bold text-gray-800">
             ¡Hola, {datosUsuario.nombre}!
           </h2>
-          <p className="text-sm text-gray-500">Revisa nuestros productos disponibles.</p>
+          <p className="text-sm text-gray-500">Revisa nuestros los nuevos productos disponibles.</p>
         </div>
 
         <div className="mb-6">
           <input
             type="text"
-            placeholder="Buscar en el catálogo..."
+            placeholder="Buscar en el catálogo...."
             value={terminoBusqueda}
             onChange={(e) => setTerminoBusqueda(e.target.value)}
             disabled={cargando}
